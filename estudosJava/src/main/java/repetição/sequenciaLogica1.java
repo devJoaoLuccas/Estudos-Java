@@ -10,7 +10,7 @@ public class sequenciaLogica1 {
         
         for (int i = 1; i <= a; i++) {
             
-        if (a < 1000) {  
+        if (a > 1 && a < 1000) {  
             
             c = i * i;
             d = i * i * i;
