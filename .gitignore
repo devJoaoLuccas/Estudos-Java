@@ -1,3 +1,5 @@
 
 estudosJava/pom.xml
 estudosJava/target/classes/arrays/lerNumeros.class
+estudosJava/target/classes/exerciciosMatematica/gastoDeCombustivel.class
+*.class
