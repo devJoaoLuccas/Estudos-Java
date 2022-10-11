@@ -3,14 +3,14 @@ package poo;
 
 public class AlunoUniversidade {
     
-    int numeroDaMatricula;
-    String nomeDoAluno;
-    int anoDeIngresso;
-    String curso;
-    boolean matriculado;
-    int disciplinasMatriculadas;
-    int permanencia;
-    float mensalidade;
+    private int numeroDaMatricula;
+    private String nomeDoAluno;
+    private int anoDeIngresso;
+    private String curso;
+    private boolean matriculado;
+    private int disciplinasMatriculadas;
+    private int permanencia;
+    private float mensalidade;
     
     public AlunoUniversidade(String nome, int numeroDaMatricula, int anoDeIngresso, String curso) {
         
@@ -20,6 +20,42 @@ public class AlunoUniversidade {
         this.curso = curso;
         this.matriculado = false;
      
+    }
+    
+    public String getNomeDoAluno() {
+        
+        return this.nomeDoAluno;   
+     
+    }
+    
+    public void setNomeDoAluno(String nome) {
+        
+        this.nomeDoAluno = nome;
+        
+    }
+    
+    public String getCurso() {
+        
+        return this.curso;
+        
+    }
+    
+    public void setCurso(String curso) {
+        
+        this.curso = curso;
+        
+    }
+    
+    public int getNumeroMatricula() {
+        
+        return this.numeroDaMatricula;
+        
+    }
+    
+    public void setNumeroMatricula(int numero) {
+        
+        this.numeroDaMatricula = numero;
+        
     }
     
     public void imprimirAluno() {

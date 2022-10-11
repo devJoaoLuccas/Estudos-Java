@@ -8,7 +8,6 @@ public class trocaDeVetor {
         Scanner scan = new Scanner(System.in);
         
             int[] vetor = new int[20];
-            int descartavel;
             
         for(int i = 19; i >= 0; i--) {
             
