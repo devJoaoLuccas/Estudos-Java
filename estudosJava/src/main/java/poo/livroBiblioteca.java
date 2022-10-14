@@ -41,9 +41,6 @@ public class livroBiblioteca {
         diasDevolvidos = (this.diaDev * 1) + (this.mesDev * 30) + (this.anoDev * 365);
         totalDeDias = diasDevolvidos - diasEmprestados;
         
-        System.out.println(diasEmprestados);
-        System.out.println(diasDevolvidos);
-        System.out.println(totalDeDias);
         
         if (totalDeDias > 7) {
             

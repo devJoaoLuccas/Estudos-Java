@@ -64,7 +64,7 @@ public class Aula {
                 System.out.println("ISBN: " + livro.getISBN());
                 System.out.println("Edição: " + livro.getEdicao());
                 
-                System.out.println("Insira o preço de + " + livro.getTitulo() + ":");
+                System.out.println("Insira o preço de  " + livro.getTitulo() + ":");
                     double preco = scan.nextDouble();
                 
                 System.out.println("Insira a quantidade de livros que tem no estoque:");
