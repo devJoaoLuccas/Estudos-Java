@@ -45,7 +45,7 @@ public class criarAgenda {
             agenda2.imprimeAgenda();
             System.out.println("");
    
-            agenda2.imprimePessoa(2);
+            agenda1.imprimePessoa(1);
             
             
             
