@@ -11,9 +11,9 @@ public class agenda {
     public agenda() {
         
         this.nome = "nome";
-        this.idade = 0;
         this.altura = 0;
-                     
+        this.idade = 0;
+        
     }
     
     public void buscaPessoa() {
@@ -88,7 +88,7 @@ public class agenda {
         return posicaoNaAgenda;
     }
 
-    public float getAltura() {
+    public double getAltura() {
         return altura;
     }
 
