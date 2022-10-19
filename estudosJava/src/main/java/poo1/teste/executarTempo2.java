@@ -5,8 +5,8 @@ public class executarTempo2 {
        
        tempo t1 = new tempo();
        tempo t2 = new tempo(17);
-       tempo t3 = new tempo(17,28);
-       tempo t4 = new tempo(17, 28, 30);
+       tempo t3 = new tempo(17,30);
+       tempo t4 = new tempo(17, 30, 30);
        
        System.out.println("FEITO:");
        System.out.println("T1.Default: " + t1.getHora() + ":" + t1.getMinuto() + ":" + t1.getSegundo());
