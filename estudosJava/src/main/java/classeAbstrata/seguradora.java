@@ -7,7 +7,6 @@ public class seguradora {
         seguro seguroResidencial = new seguroResidencial ("Marcos Marques", 5000f,
                                                                     "Alameda Bosque Imperial, bl 45 apt 302", 1997);
         seguro seguroAutomovel = new seguroAutomovel ("Marcela Marques", 10000f, 1503, 1969);
-        seguro seguroDeVida1 = new seguroVida("João Luccas", 50000f, 48);
         
         seguro[] seguros = {seguroDeVida, seguroResidencial, seguroAutomovel};
         
